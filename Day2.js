@@ -60,3 +60,7 @@ console.log(false && false, "because both conditions are false.");
 console.log(true || true, "because at least one condition is true.");
 console.log(true || false, "because at least one condition is true.");
 console.log(false || false, "because both conditions are false.");
+
+const randomNumber = 123;
+const isPositive = randomNumber >= 0 ? "Positive" : "Negetive";
+console.log(isPositive);
